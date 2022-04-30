@@ -52,7 +52,7 @@ checkout_haightfillmore() {
     cd haightfillmore
     echo "installing node packages"
     yarn
-    if [[ "$DEPLOY_ROUTE" == "about" ]]; then
+    if [[ "$DEPLOY_ROUTE" == "catalog" ]]; then
         deploy_catalog
     else
         echo "cannot deploy: $DEPLOY_ROUTE"
@@ -82,7 +82,7 @@ main() {
 
     if [[ "$DEPLOY_APP" == "somamission" ]]; then
         checkout_somamission
-    elif [[ "$DEPLOY_APP" == "somamission" ]]; then
+    elif [[ "$DEPLOY_APP" == "haightfillmore" ]]; then
         checkout_haightfillmore
     else
         echo "cannot checkout: $DEPLOY_APP"
