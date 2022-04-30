@@ -1,0 +1,5 @@
+NETLIFY_AUTH_TOKEN=my-netlify-auth-token
+DEPLOY_APP=somamission
+DEPLOY_ROUTE=about
+ABOUT_SITE_ID=my-about-site-id
+CATALOG_SITE_ID=my-catalog-site-id

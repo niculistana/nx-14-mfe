@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "projects": {
+    "cart": "apps/cart",
+    "cart-e2e": "apps/cart-e2e",
+    "catalog": "apps/catalog",
+    "catalog-e2e": "apps/catalog-e2e",
+    "client": "apps/client",
+    "client-e2e": "apps/client-e2e",
+    "shell": "apps/shell",
+    "shell-e2e": "apps/shell-e2e"
+  }
+}
