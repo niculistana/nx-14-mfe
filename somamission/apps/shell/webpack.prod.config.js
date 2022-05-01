@@ -2,6 +2,16 @@ const { withModuleFederation } = require('@nrwl/angular/module-federation');
 const config = require('./module-federation.config');
 module.exports = withModuleFederation({
   ...config,
+  remotes: [
+    [
+      'about',
+      'https://my-about.netlify.app/remoteEntry.mjs',
+    ],
+    [
+      'catalog',
+      'https://my-catalog.netlify.app/remoteEntry.mjs',
+    ],
+  ],
   /*
    * Remote overrides for production.
    * Each entry is a pair of an unique name and the URL where it is deployed.

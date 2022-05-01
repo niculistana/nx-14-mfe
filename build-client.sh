@@ -42,7 +42,8 @@ deploy_catalog() {
     echo "building: $DEPLOY_ROUTE"
     yarn run nx build catalog --configuration=production
     echo "deploying: $DEPLOY_ROUTE"
-    NETLIFY_SITE_ID=$CATALOG_SITE_ID netlify deploy
+    # For drafts, remove --prod flag
+    NETLIFY_SITE_ID=$CATALOG_SITE_ID netlify deploy --prod
     echo "deploy success!"
 }
 
