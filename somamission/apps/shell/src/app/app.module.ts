@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header.component';
+import { NavTabsComponent } from './nav-tabs.component';
+import { NavTabComponent } from './nav-tab.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent],
+  declarations: [AppComponent, HeaderComponent, NavTabsComponent, NavTabComponent],
   imports: [
     BrowserModule,
     RouterModule.forRoot(
