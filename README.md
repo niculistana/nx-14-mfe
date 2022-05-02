@@ -3,6 +3,7 @@
 Example build orchestration using multiple nx 14 repos, docker, and netlify.
 
 ### MFE structure
+```
 haightfillmore/
 ├─ apps/
 │  ├─ cart/ * mysite.com/cart
@@ -13,6 +14,7 @@ somamission/
 │  ├─ about/ * mysite.com/about
 │  ├─ shell/ * mysite.com/
 Dockerfile
+```
 
 ### Manually upload Nx output to Netlify
 ```sh
