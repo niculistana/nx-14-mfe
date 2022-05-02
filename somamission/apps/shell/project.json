@@ -97,10 +97,10 @@
       "executor": "@nrwl/workspace:run-commands",
       "outputs": [],
       "options": {
-        "command": "rm -rf production && mkdir production && cp -r dist/apps/shell/* production && cp -r dist/apps/about production && http-server -p 3000 -a localhost production"
+        "command": "rm -rf production && mkdir production && cp -r dist/apps/shell/* production && http-server -p 3000 -a localhost production"
       }
     }
   },
   "tags": [],
-  "implicitDependencies": ["about"]
+  "implicitDependencies": []
 }
