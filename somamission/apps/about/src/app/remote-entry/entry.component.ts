@@ -3,7 +3,14 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'about-entry',
   template: `<div class="remote-entry">
-    <h2>about's Remote Entry Component</h2>
+    <h2>
+      Monorepo: somamission
+      App: about
+    </h2>
+    <p>
+      Using Docker to orchestrate build and deployments, we can build from any
+      nx monorepo 😎.
+    </p>
   </div>`,
   styles: [
     `
